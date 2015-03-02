@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Question1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ans>1) .NET Framework is a software platform for building systems on the Windows operating systems, as well as on non-Microsoft operating systems such as Mac OS X and various Unix/Linux distributions.
+
+The benefits of the .NET platform are 
+Interoperability with existing code
+Support for numerous programming languages
+A common runtime engine shared by all .NET-aware languages
+Language integration
+A comprehensive base class library
+A simplified deployment model
+
+The building blocks of .NET platform are CLR, CTS, CLS and base class library. The CLR is the runtime layer referred to as the Common Language Runtime and its main role is to locate, load, and manage .NET objects. It also takes care of a number of low-level details such as memory management, application hosting, coordinating threads, and performing security checks. The CTS is the Common Type System, which describes all possible data types and all programming constructs supported by the runtime. It specifies how these entities can interact with each other, and details how they are represented in the .NET metadata format. The Common Language Runtime (CLR) defines common types and programming constructs that all .NET programming languages can agree. The base class library is used to encapsulate primitives such as threads, file input/output (I/O), graphical rendering systems and interaction with various external hardware devices. This can also be used to build any kind of software application. 
+The code that cannot be directly hosted by .NET runtime is known as the unmanaged code. C# language cannot be used to build a C/C++ unmanaged application. The code targeting the .NET runtime is managed code. The binary unit that contains the managed code is termed an assembly.
+</ans>
+  <dd_ls>5</dd_ls>
+  <review />
+</Question1>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Question2_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ans>2) The .NET assemblies have extensions like .dll and .exe as unmanaged Windows binaries. The .NET assemblies contain platform-agnostic Intermediate Language. 
+The .NET assembly contains the CIL code, which is similar to Java byte code, metadata which describes the characteristic of every type within the binary and manifest The manifest contains information about the current version of the assembly, culture information and a list of all externally referenced assemblies that are required for proper execution. 
+When a particular code file is complied using a C# compiler, a *.exe assembly file is generated that contains the manifest, CIL instructions, and metadata.
+The assemblies in base class library are organized by the namespace concept. A namespace is a grouping of semantically related types contained in an assembly or possibly spread across multiple related assemblies.
+</ans>
+  <dd_ls>5</dd_ls>
+  <review />
+</Question2_file>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Question5_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ans>
+   5) Class type is the fundamental programming construct. It is the user-defined type composed of field data and members that operate on the data. Constructor of a class type allows initialization of state at object creation. Typical constructor sets values to instance-level data. Instance constructors are used to create and initialize any instance member variables when you use the new expression to create an object of a class. To initialize a static class, or static variables in a non-static class, you must define a static constructor. The keyword this provides access to the current class instance, used for resolving scope ambiguity and to chain Constructor Calls when multiple constructors are defined. Object is an instance of a class. We can create an instance by using new keyword. In order to instantiate instances of objects Reflection namespace is used but the return value will be "object" and we will need to type-cast it.
+
+Static constructors allow you to initialize static variables in a class, or do other things needed to do in a class after it's first referenced in your code. They are called only once each time your program runs.
+
+Static constructors are declared with this syntax, and can't be overloaded or have any parameters because they run when your class is referenced by its name:
+
+static MyClass()
+{
+}
+Instance constructors are the ones that are called whenever you create new objects (instances of classes). They're also the ones you normally use in Java and most other object-oriented languages.
+
+You use these to give your new objects their initial state. These can be overloaded, and can take parameters:
+
+public MyClass(int someNumber) : this(someNumber, 0) {}
+
+public MyClass(int someNumber, int someOtherNumber)
+{
+    this.someNumber = someNumber;
+    this.someOtherNumber = someOtherNumber;
+}
+Calling code:
+
+MyClass myObject = new MyClass(100, 5);</ans>
+  <dd_ls>5</dd_ls>
+  <review />
+</Question5_file>

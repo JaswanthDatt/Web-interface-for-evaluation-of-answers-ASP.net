@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" EnableViewState="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #rightside {
+            height: 3px;
+            width: 1077px;
+            margin-left: 211px;
+            margin-top: 0px;
+        }
+        #header {
+        }
+        #foot {
+            height: 758px;
+        }
+        #Div1 {
+            width: 1089px;
+            height: 1253px;
+            margin-left: 234px;
+        }
+    </style>
+</head>
+<body style="height: 1804px; margin-right: 6px;">
+    <form id="form1" runat="server">
+    <div id="pagesize">
+        <div id="header" ><img src="1.png" style="width:100%; height:120px"/>
+        <div id="leftside" style="border-style: none double none none;float:left; height:1626px; width:14%; vertical-align: top; text-align: center; font-family: 'Arial Rounded MT Bold'; background-color: #FFFFFF; font-size: 19px;"/>
+
+            <br />
+            <br />
+            <a href="Question_1.aspx">Question_1</a><br />
+            <br />
+            <a href="Question_2.aspx">Question_2</a> <br />
+            <br />
+            <a href="Question_3.aspx">Question_3</a><br />
+            <br />
+            <a href="Question_4.aspx">Question_4</a><br />
+            <br />
+            <a href="Question_5.aspx">Question_5</a><br />
+            <br />
+            <a href="Question_6.aspx">Question_6</a><br />
+            <br />
+            <a href="Question_7.aspx">Question_7</a><br />
+            <br />
+            <a href="Question_8.aspx">Question_8</a><br />
+            <br />
+            <a href="Question_9.aspx">Question_9</a><br />
+            <br />
+            <a href="Question_10.aspx">Question_10</a><br />
+            <br />
+            <br />
+            <br />
+            </div>
+         <div id="Div1" style="width:80%;">
+             <br />
+             <br />
+             <br />
+             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                 <p>
+                     <br />
+                 </p>
+             </asp:ContentPlaceHolder>
+             <br />
+             &nbsp;
+             <br />
+             <br />
+             <br />
+             <br />
+             <br />
+             <br />
+             <br />
+             <br />
+            </div>
+            <img src="2.png" style="width:100%; height:67px; margin-left: 0px;"/></div>
+    </form>
+</body>
+</html>

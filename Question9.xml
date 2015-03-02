@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Question9_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ans>WPF
+Windows Presentation Foundation (WPF) is a next-generation presentation system for building Windows client applications with visually stunning user experiences. With WPF, you can create a wide range of both standalone and browser-hosted applications.The core of WPF is a resolution-independent and vector-based rendering engine that is built to take advantage of modern graphics hardware. WPF extends the core with a comprehensive set of application-development features that include Extensible Application Markup Language (XAML), controls, data binding, layout, 2-D and 3-D graphics, animation, styles, templates, documents, media, text, and typography. WPF is included in the Microsoft .NET Framework, so you can build applications that incorporate other elements of the .NET Framework class library.
+
+XAML
+Extensible Application Markup Language, or XAML (pronounced "zammel"), is an XML-based markup language developed by Microsoft. XAML is the language behind the visual presentation of an application that you develop in Microsoft Expression Blend, just as HTML is the language behind the visual presentation of a Web page. Creating an application in Expression Blend means writing XAML code, either by hand or visually by working in the Design view of Expression Blend.
+
+Window class as used in a WPF application
+This class Encapsulates a Windows Presentation Foundation (WPF) application.
+System.Object --&gt;
+  --&gt;System.Windows.Threading.DispatcherObject
+    --&gt;System.Windows.Application
+
+LayoutManager &amp; Uses
+LayoutManager is a custom control which helps you to create a layout for web pages very easily with the same ease you did for windows forms. It has good designer support, so that you don’t need to write a single line of code. All things can be configured via the designer.
+
+
+</ans>
+  <dd_ls>5</dd_ls>
+  <review />
+</Question9_file>

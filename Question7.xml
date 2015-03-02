@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Question7_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ans>Polymorphism
+Polymorphism is often referred to as the third pillar of object-oriented programming, after encapsulation and inheritance. 
+At run time, objects of a derived class may be treated as objects of a base class in places such as method parameters and collections or arrays. When this occurs, the object's declared type is no longer identical to its run-time type.
+Base classes may define and implement virtual methods, and derived classes can override them, which means they provide their own definition and implementation. At run-time, when client code calls the method, the CLR looks up the run-time type of the object, and invokes that override of the virtual method. Thus in your source code you can call a method on a base class, and cause a derived class's version of the method to be executed.
+
+Virtual Keyword
+The virtual keyword is used to modify a method, property, indexer, or event declaration and allow for it to be overridden in a derived class. For example, this method can be overridden by any class that inherits it:
+public virtual double Area() 
+{
+    return x * y;
+}
+The implementation of a virtual member can be changed by an overriding member in a derived class.
+
+Override
+The override modifier is required to extend or modify the abstract or virtual implementation of an inherited method, property, indexer, or event.
+
+Sealed
+The sealed keyword enables you to prevent the inheritance of a class or certain class members that were previously marked virtual.
+class A {}    
+    sealed class B : A {}
+
+Abstract Class
+The abstract keyword enables you to create classes and class members that are incomplete and must be implemented in a derived class.
+public abstract class A
+{
+   
+}
+</ans>
+  <dd_ls>5</dd_ls>
+  <review />
+</Question7_file>

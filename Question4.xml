@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Question4_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ans>The three parametric modifiers are params, ref and out. The params keyword is used to specify a method parameter that takes a variable number of arguments. No additional parameters are permitted after the params keyword in a method declaration, and only one params keyword is permitted in a method declaration. The ref keyword causes an argument to be passed by reference, not by value. The effect of passing by reference is that any change to the parameter in the method is reflected in the underlying argument variable in the calling method. The value of a reference parameter is always the same as the value of the underlying argument variable. The out contextual keyword is used in two ways: As a parameter modifier in parameter lists and in generic type parameter declarations.</ans>
+  <dd_ls>5</dd_ls>
+  <review />
+</Question4_file>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Question10_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ans>Life cycle of an ASP.NET web page:
+ASP.NET session state enables you to store and retrieve values for a user as the user navigates the different ASP.NET pages that make up a Web application. HTTP is a stateless protocol, meaning that your Web server treats each HTTP request for a page as an independent request; by default, the server retains no knowledge of variable values used during previous requests. As a result, building Web applications that need to maintain some cross-request state information (applications that implement shopping carts, data scrolling, and so on) can be a challenge. ASP.NET session state identifies requests received from the same browser during a limited period of time as a session, and provides the ability to persist variable values for the duration of that session.
+
+View State
+View state is the method that the ASP.NET page framework uses to preserve page and control values between round trips. When the HTML markup for the page is rendered, the current state of the page and values that must be retained during postback are serialized into base64-encoded strings.
+
+Application state?
+ASP.NET session state enables you to store and retrieve values for a user as the user navigates ASP.NET pages in a Web application. HTTP is a stateless protocol. This means that a Web server treats each HTTP request for a page as an independent request. The server retains no knowledge of variable values that were used during previous requests. ASP.NET session state identifies requests from the same browser during a limited time window as a session, and provides a way to persist variable values for the duration of that session. By default, ASP.NET session state is enabled for all ASP.NET applications.
+
+Session state
+Session state, in the context of .NET, is a method keep track of the a user session during a series of HTTP requests. Session state allows a developer to store data about a user as he/she navigates through ASP.NET web pages in a .NET web application.The concept of a session is generic and applies to most web servers. Session state however is a Microsoft-centric concept.
+
+The differences between application and session state.
+
+Session State contains information that is pertaining to a specific session (by a particular client/browser/machine) with the server. It's a way to track what the user is doing on the site.. across multiple pages...amid the statelessness of the Web. e.g. the contents of a particular user's shopping cart is session data. Cookies can be used for session state.
+
+View State on the other hand is information specific to particular web page. It is stored in a hidden field so that it isn't visible to the user. It is used to maintain the user's illusion that the page remembers what he did on it the last time - dont give him a clean page every time he posts back. Check this page for more.</ans>
+  <dd_ls>5</dd_ls>
+  <review />
+</Question10_file>

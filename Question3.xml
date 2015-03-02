@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Question3_file xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ans>Byte
+Sbyte
+Short
+Int
+Long
+Ushort
+Uint
+Ulong
+Float
+Double
+Char
+String
+Decimal
+Bool
+The value and reference type are similar in terms of declaration syntax and usage, but their semantics are distinct. Reference types are stored on the run-time heap and they are accessed through reference to that storage. As they are managed through references their lifetime is managed by the .NET Framework. 
+Value types are stored directly on the stack, either within an array or within another type and they are accessed directly. As they are stored directly within variables, their lifetime is determined by the lifetime of the variable that contains them.
+</ans>
+  <dd_ls>5</dd_ls>
+  <review />
+</Question3_file>
